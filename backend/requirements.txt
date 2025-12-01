@@ -1,0 +1,7 @@
+express
+express-validator
+jsonwebtoken
+bcrypt
+prisma
+@prisma/client
+python-dotenv>=1.0.0
