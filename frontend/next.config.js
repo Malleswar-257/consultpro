@@ -1,0 +1,1 @@
+{"target": "serverless", "future": {"standardBuild": true}, "experimental": {"appDir": true}, "prismicio": {"repositoryName": "consultpro"}}
