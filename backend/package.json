@@ -1,0 +1,1 @@
+{"name": "consulting-agency-backend", "version": "1.0.0", "scripts": {"start": "node index.js"}, "dependencies": {"express": "^4.17.1", "prisma": "^4.10.0", "jsonwebtoken": "^9.0.0", "bcrypt": "^5.0.1", "dotenv": "^16.0.1"}}
