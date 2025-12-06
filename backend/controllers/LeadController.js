@@ -1,0 +1,1 @@
+class LeadController { async getAllLeads() { try { const leads = await prisma.lead.findMany(); return leads; } catch (err) { throw err; } } async createLead(name, email, message) { try { const lead = await prisma.lead.create({ data: { name, email, message } }); return lead; } catch (err) { throw err; } } }
