@@ -1,0 +1,1 @@
+class AchievementController { async getAllAchievements() { try { const achievements = await prisma.achievement.findMany(); return achievements; } catch (err) { throw err; } } }
