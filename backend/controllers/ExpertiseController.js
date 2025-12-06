@@ -1,0 +1,1 @@
+class ExpertiseController { async getAllExpertise() { try { const expertise = await prisma.expertise.findMany(); return expertise; } catch (err) { throw err; } } }
