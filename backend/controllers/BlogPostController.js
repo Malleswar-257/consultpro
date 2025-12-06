@@ -1,0 +1,1 @@
+class BlogPostController { async getAllBlogPosts() { try { const blogPosts = await prisma.blogPost.findMany(); return blogPosts; } catch (err) { throw err; } } async createBlogPost(title, content, author) { try { const blogPost = await prisma.blogPost.create({ data: { title, content, author } }); return blogPost; } catch (err) { throw err; } } }
