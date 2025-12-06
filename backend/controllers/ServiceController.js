@@ -1,0 +1,1 @@
+class ServiceController { async getAllServices() { try { const services = await prisma.service.findMany(); return services; } catch (err) { throw err; } } }
