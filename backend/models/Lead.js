@@ -1,0 +1,1 @@
+class Lead { constructor(id, name, email, message, createdAt) { this.id = id; this.name = name; this.email = email; this.message = message; this.createdAt = createdAt; } }
